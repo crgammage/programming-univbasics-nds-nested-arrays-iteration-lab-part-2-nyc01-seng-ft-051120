@@ -4,9 +4,9 @@ smallest_numbers = []
 row_index = 0
   while row_index < src.count do
     element_index = 0
-    smallest_value = src[row_index][element_index - 1]
-    binding.pry
+    smallest_value = 100
     while element_index < src[row_index].count do
+      binding.pry
       if src[row_index][element_index] < smallest_value
         smallest_numbers << src[row_index][element_index]
     end
