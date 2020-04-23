@@ -5,6 +5,6 @@ smallest_numbers = []
 row_index = 0
   while row_index < src.count do
     element_index = 0
-    
+    while element_index
   end
 end
