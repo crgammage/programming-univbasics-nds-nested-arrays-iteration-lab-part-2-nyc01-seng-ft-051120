@@ -9,10 +9,11 @@ row_index = 0
       binding.pry
       if src[row_index][element_index] < smallest_value
         smallest_value = src[row_index][element_index]
-    end
+      end
     element_index += 1
-  end
+    end
+    smallest_numbers << smallest_value
   row_index += 1
-end
+  end
 smallest_numbers
 end
