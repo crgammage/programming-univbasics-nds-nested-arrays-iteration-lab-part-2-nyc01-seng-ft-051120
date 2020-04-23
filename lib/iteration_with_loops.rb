@@ -9,6 +9,7 @@ row_index = 0
     while element_index < src[row_index].count do
       if src[row_index][element_index < src[row_index][element_index]
         smallest_numbers << src[row_index][element_index]
+binding.pry
     end
     element_index += 1
   end
