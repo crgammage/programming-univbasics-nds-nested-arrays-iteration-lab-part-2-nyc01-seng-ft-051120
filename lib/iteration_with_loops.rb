@@ -6,7 +6,7 @@ row_index = 0
     element_index = 0
     smallest_value = 100
     while element_index < src[row_index].count do
-      binding.pry
+      # binding.pry
       if src[row_index][element_index] < smallest_value
         smallest_value = src[row_index][element_index]
       end
